@@ -1,17 +1,16 @@
 ---
-title: 板卡介绍
-keywords: Linux, Lichee, TH1520, SBC, RISCV
-update:
+title: Update History
+keywords: Linux, Lichee, Lichee Pi 4A, TH1520, C910, SBC, RISCV
+updates:
   - date: 2023-06-01
     version: v1.0.1
     author: hackswell
-    content:
-      - Start editing EN version of documentation
+    content: Start editing EN version of documentation
+
   - date: 2023-05-08
     version: v1.0
     author: wonder
-    content:
-      - Release docs
+    content: Release docs
 ---
 
 English documents are currently being translated, please read these documents via web translate application at present if necessary.
