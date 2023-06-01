@@ -1,53 +1,58 @@
 ---
-title: 开箱体验
-keywords: Linux, Lichee, TH1520, SBC, RISCV, unbox
-update:
+title: Update History
+keywords: Linux, Lichee, Lichee Pi 4A, TH1520, C910, SBC, RISCV, unbox
+updates:
+  - date: 2023-06-01
+    version: v1.0.1
+    author: Hackswell
+    content: Added EN translation
+    
   - date: 2023-05-08
     version: v1.0
     author: wonder
-    content:
-      - Release docs
+    content: Release docs
 ---
 
-## 开箱内容
+## Unboxing the Lichee Pi 4A
 
-LicheePi 4A 分为两个版本，内测版与正式版。 
-内测版于 2023 年 5 月发售，仅有 8+8（DDR+eMMC）版本，各部分功能基本正常。
-正式版预计于 2023 年 6 月发售，将有 8+32,16+128 版本，也会针对内测版用户提出的相关建议进行局部微调优化，功能/镜像与内测版会保持一致。
+The LicheePi 4A is divided into two versions: the internal test version and the official version.
+The closed beta version will be released in May 2023. There is only an 8+8 (DDR+eMMC) version, and all capabilities and functions are basically the same.
+The official version is expected to be released in June 2023. There will be 8+32, 16+128 versions, and local fine-tuning and optimization will be carried out in response to relevant suggestions from users of the internal test version. The functions/images will be consistent with the internal test version.
 
-### 内测版
+### Beta Version
 
-如果你是第一批内测版 LicheePi 4A 用户，你收到的包裹内将是如下包装：
+If you are the first batch of internal test version LicheePi 4A users, the package you will receive will be as follows:
 ![package_alpha](./../../../../zh/lichee/th1520/lpi4a/assets/unbox/package_alpha.png)
 
-打开塑料盒包装，你将看到如下的内容：
+When you open the box, you will see the following contents:
 ![unbox_alpha](./../../../../zh/lichee/th1520/lpi4a/assets/unbox/unbox_alpha.png) 
-包裹在黑色泡棉内的就是 LicheePi 4A 主体，其余标号部件为：
-1. 30x30mm 散热硅脂
-2. 30mm 5V 散热风扇，右边已连接至风扇插针。如果松动脱出，请自行安装回去，注意红线为正极，装反后风扇不会转动。
-3. 2.4G WiFi 天线，已安装至 IPEX 座子。如果松动脱出，请自行安装回去。
-4. USB-C 线缆，作为供电和下载镜像使用。
+The main body of LicheePi 4A is wrapped securely in black foam, and the other labeled parts are:
+1. 30x30mm thermal grease pad
+2. 30mm 5V cooling fan, the right side is connected to the fan pin. If it is loose and comes out, please reconnect it yourself. Note that the red wire is the positive pole, and the fan will not rotate if the installation is reversed.
+3. 2.4G WiFi antenna, pre-installed on the IPEX socket. If it comes loose, please reconnect it yourself.
+5. USB-C cable, used as power supply and to upload the image.
 
-如果开箱后发现缺少相关部件，请联系客服咨询。
+If you find relevant parts missing after unpacking, please contact customer service for consultation.
 
-### 正式版
+### Official Version
 
-（预计2023年6月发售）
+(Scheduled to be released in June 2023)
 
-### 选配件
+### Optional Accessories
 
-如果你购买了选配件的话，包裹里还可能有：
+If you have purchased any of the optional accessories, these may also be included in the package:
 ![option_alpha](./../../../../zh/lichee/th1520/lpi4a/assets/unbox/option_alpha.png)
-图中上半部分是选配的 RVDebugger Plus，具有 JTAG+UART 功能，如果你需要进行底层调试，可选购买。
-图中下半部分是选配的 12V2A 电源适配器，如果你需要在板子上外接大量耗电外设（如 USB，MIPI 屏），可选购买。
 
-5V2A USB 供电可满足板卡在 1.85GHz 下的满载烤机运行
+The module in the upper part of the picture is the optional RVDebugger Plus, which has the function of JTAG+UART. If you need to perform low-level debugging, you can purchase it as an option.
+The lower part of the picture is the optional 12V2A power adapter.  If you need to connect a lot of power-consuming peripherals (such as USB, MIPI screen) to the board, you may want to buy it as an option.
 
-以及未来还会有POE供电模块（TODO）
+The 5V2A USB power supply can meet the full-load operation of the board at 1.85GHz
 
-## 组装板卡
+And there will be POE power supply module (TODO) in the future
 
-### SOM安装
+## Assembling the Board
+
+### SOM installation
 
 默认情况下 LM4A SOM 已经安装至主板上，如果你需要升级/替换 SOM，可按如下说明进行 SOM 的取出和安装
 
