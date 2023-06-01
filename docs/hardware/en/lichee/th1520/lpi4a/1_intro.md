@@ -139,9 +139,13 @@ For users who successfully submit the document, we will provide ￥5 ~ 150 (US$1
 ### Hardware Data Downloads
 
 [Board Specifications](https://dl.sipeed.com/shareURL/LICHEE/licheepi4a/01_Specification)
+
 [Backplane Schematic](https://dl.sipeed.com/shareURL/LICHEE/licheepi4a/02_Schematic)
+
 [Backplane point and bitmap](https://dl.sipeed.com/shareURL/LICHEE/licheepi4a/03_Bit_number_map)
+
 [Backplane dimension](https://dl.sipeed.com/shareURL/LICHEE/licheepi4a/04_Dimensional_drawing)
+
 [Model file](https://dl.sipeed.com/shareURL/LICHEE/licheepi4a/05_3D_model)
 
 ## Other Links
@@ -149,6 +153,7 @@ For users who successfully submit the document, we will provide ￥5 ~ 150 (US$1
 Online store: [Aliexpress](https://www.aliexpress.com/item/1005005532736080.html)
 
 [Github](https://github.com/sipeed/LicheePi4A)
+
 [Sipeed download site](https://dl.sipeed.com/shareURL/LICHEE/licheepi4a)
 
 Telegram: https://t.me/linux4rv
